@@ -1,0 +1,96 @@
+body{
+    overflow: hidden;
+}
+
+main{
+    width: 100dvw;
+    height: 100dvh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.boxbtn{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.img{
+    width: 200px;
+    height: 230px;
+    position: absolute;
+    object-fit: cover;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+}
+
+/* .img:nth-of-type(n + 2){
+    box-shadow: 0 0 20px #0000006d;
+} */
+
+.img1{
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.img2{
+    right: 630px;
+    bottom: 100px;
+}
+
+.img3{
+    right: 420px;
+    bottom: 100px;
+}
+
+.img4{
+    right: 210px;
+    bottom: 100px;
+}
+
+.img5{
+    right: 0;
+    bottom: 100px;
+}
+
+.mark1{
+    position: absolute;
+    right: 630px;
+    bottom: 100px;
+    background-color: #fff;
+    visibility: hidden;
+}
+
+.mark2{
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+    background-color: #fff;
+    visibility: hidden;
+}
+
+.mark3{
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%,0);
+    background-color: #fff;
+    visibility: hidden;
+}
+
+.addaniscale{
+    animation: ani .5s ease-in-out forwards;
+}
+
+@keyframes ani {
+    0%{
+        transform: scale(0,0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1,1);
+        opacity: 1;
+    }
+}
