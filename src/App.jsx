@@ -135,11 +135,11 @@ function App() {
   	return (
   	  <>
 	  	<main ref={imgref}>
-			<img className="img img1" src="./pexels-ken123films-1499639.jpg" alt="" />
+			<img className="img img1" src="./593735fa-7953-4de4-b4f4-c6e06a112d9d.jpg" alt="" />
 			<img className="img img2" src="./pexels-pixabay-2150.jpg" alt="" />
 			<img className="img img3" src="./pexels-pixabay-76969.jpg" alt="" />
 			<img className="img img4" src="./pexels-pixabay-87009.jpg" alt="" />
-			<img className="img img5" src="./pexels-miriamespacio-110854.jpg" alt="" />
+			<img className="img img5" src="./3146489.jpg" alt="" />
   	  	</main>
 	  	<div className="boxbtn">
 	  		<button style={checkclick == true ? {pointerEvents:"none"}:{}} onClick={() => clickLeft()}>Left</button>
